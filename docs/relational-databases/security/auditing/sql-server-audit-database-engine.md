@@ -42,7 +42,7 @@ ms.locfileid: "80243412"
 ## <a name="sql-server-audit-components"></a>SQL Server 監査のコンポーネント  
  *監査* では、複数の要素が、サーバー アクションやデータベース アクションの特定のグループのための 1 つのパッケージに組み合わされています。 レポート定義がグラフィックやデータ要素と組み合わされてレポートが生成されるように、 [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] 監査の複数のコンポーネントが組み合わされて、監査と呼ばれる出力が生成されます。  
   
- [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] 監査では、 *拡張イベント* を使用して監査を作成できます。 拡張イベントの詳細については、「 [拡張イベント](../../../relational-databases/extended-events/extended-events.md)」を参照してください。  
+ [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] 監査では、 監査を作成するのに*拡張イベント* を使用します。 拡張イベントの詳細については、「 [拡張イベント](../../../relational-databases/extended-events/extended-events.md)」を参照してください。  
   
 ### <a name="sql-server-audit"></a>SQL Server Audit  
  *SQL Server 監査* オブジェクトは、監視するサーバー レベルまたはデータベース レベルのアクションおよびアクションのグループの 1 つのインスタンスを収集します。 監査は [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] インスタンス レベルで行われます。 [!INCLUDE[ssNoVersion](../../../includes/ssnoversion-md.md)] のインスタンスごとに複数の監査を使用できます。  
